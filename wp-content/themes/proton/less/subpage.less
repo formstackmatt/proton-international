@@ -1,0 +1,218 @@
+/* Sub Page */
+
+.sub-page-header {
+	padding: 50px 0;
+	margin-top: 125px;
+	text-align: center;
+	background: #b85c62;
+	border-top: 8px solid #d1a8aa;
+	border-bottom: 8px solid #d1a8aa;	
+
+	h1 {
+		color: #FFFFFF;
+		margin-bottom: 0;
+		font-size: 34px;
+	}
+	
+	h2{
+		color: #fff;
+		font-size: 14px;
+		margin: 0 auto;
+		max-width: 900px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+}
+
+.main-content{
+	
+}
+
+.about-left{
+
+	.about-bio-pic{
+		display: block;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+	
+	.divider{
+		margin: 40px 0;
+		height: 1px;
+		background: #ccc;
+	}
+	
+	img{
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+	
+}
+
+.about-right{
+	margin-top: -7px;
+	color: #111;
+	
+	p{
+		margin-bottom: 15px;
+		font-size: 18px;
+		line-height: 1.8;
+	}
+	
+}
+
+.blog-main,
+.blog-post{
+
+	.blog-thumb img{
+		max-width: 100%;
+		height: auto;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+	
+	h2{
+		font-size: 23px;
+		font-weight: 700;
+		letter-spacing: 0;
+		margin-bottom: 5px;
+		
+		a{
+			color: #000;
+			
+			&:hover{
+				text-decoration: underline;
+			}
+			
+		}
+		
+ 	}
+	
+	p,
+	ol,
+	ul{
+		color: #666;
+		line-height: 1.6;
+	}
+	
+	.date{
+		color: #666;
+		margin-bottom: 5px;
+	}
+	
+	.individual-blog-post{
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 45px;
+		margin-bottom: 45px;
+		
+		&:last-child{
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: 0;
+		}
+		
+	}
+
+}
+
+.blog-post{
+
+	h2{
+		margin-bottom: 30px;
+		font-size: 30px;
+	}
+	
+	.blog-content{
+	
+		p,
+		ul,
+		ol,
+		h3,
+		h4,
+		h5,
+		h6{
+			margin-bottom: 15px;
+		}
+		
+		p,
+		ul,
+		ol{	
+			line-height: 2;
+		}
+		
+		ol,
+		ul{
+			margin-left: 15px;
+		}
+		
+	}
+	
+	.back-link{
+		text-align: center;
+		margin-top: 15px;
+	}
+	
+}
+
+.thank-you{
+	text-align: center;
+	
+	h1{
+		margin-top: 25px;
+		text-transform: none;
+		margin-bottom: 20px;
+		letter-spacing: 0;
+		font-size: 24px;
+	}
+	
+	h2{
+		font-size: 18px;
+		letter-spacing: 0;
+	}
+	
+}
+
+@media only screen and (max-width: 768px) {
+	
+	.about-left{
+		text-align: center;
+		
+		img{
+			display: inline-block;
+			margin-bottom: 30px;
+		}
+		
+	}
+	
+	.individual-blog-post{
+		
+		.blog-thumb{
+			
+			img{
+				margin-bottom: 30px;
+				max-width: 50%;
+				height: auto;
+			}
+			
+		}
+					
+		.back-link{
+			text-align: left;
+			margin-bottom: 20px;
+		}
+					
+		h2{
+			margin: 15px 0;
+		}
+		
+	}
+	
+	.single .blog-thumb img{
+		margin-bottom: 15px;
+	}
+	
+}

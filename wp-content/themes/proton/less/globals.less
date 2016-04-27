@@ -1,0 +1,238 @@
+html,
+body{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+
+.container {
+  max-width: 970px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+	outline: medium none;
+	text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 1px;
+}
+
+strong{ font-weight: 600; }
+
+input::-webkit-input-placeholder {
+	color: #000;
+}
+
+textarea::-webkit-input-placeholder {
+	color: #000;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* HOME */
+/* Navigation */
+.navbar {
+	font-size: 12px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  min-height: 0;
+  z-index: 9999;
+}
+
+.navbar-nav{
+  float: none;
+	padding-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  
+  > li{
+    display: inline-block;
+    float: none;
+    margin: 0 10px;
+    
+    > a {
+      -webkit-transition: all 500ms ease-out;
+      transition: all 500ms ease-out;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 0;
+      letter-spacing: 1px;
+      color: #fff;
+      border-bottom: 2px solid transparent;
+      
+      &:hover{
+        opacity: 1;
+      }
+      
+    }
+    
+  }
+  
+  &:hover{
+  
+    > li{
+      
+      > a{
+      
+        opacity: 0.5;
+        
+        &:hover{
+          opacity: 1;
+        }
+        
+      }
+    
+    }
+  
+  }
+  
+}
+
+.navbar-toggle{
+  float:  none;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  color: #fff;
+  
+  .menu-mobile-title{
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.section{
+	padding: 80px 0;	
+	
+	.headline{
+		font-weight: 700;
+		margin-bottom: 55px;
+		font-size: 34px;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.navbar-custom {
+		background: #000;
+	}
+
+	.navbar-nav{
+		padding-top: 0;
+		background-color: #000;
+	}
+  
+  .navbar-nav > li{
+    display: block;
+  }
+
+	.navbar-nav > li > a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 20px;
+		color: #fff;
+    border-bottom: 0;
+	}
+	
+	.navbar-custom .nav li a:hover{
+		color: #eee;
+		background-color: #333;
+    border-bottom: 0;
+	}
+  
+}
+
+.page-scrolldown{
+  color: #fff;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -18px;
+  opacity: 0.50;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  
+  .fa{
+    font-size: 58px;
+  }
+  
+  &:hover{
+    opacity: 1;
+  }
+  
+  &:hover,
+  &:focus,
+  &:active{
+    color: #fff;
+  }
+  
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.navbar {
+		padding: 20px 0;
+	}
+
+	.top-nav-collapse {
+		padding: 0;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
