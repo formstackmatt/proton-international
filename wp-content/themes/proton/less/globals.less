@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 970px;
+  //max-width: 970px;
 }
 
 a,
@@ -23,6 +23,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 1px;
+	margin: 0;
 }
 
 strong{ font-weight: 600; }
@@ -65,20 +66,23 @@ textarea::-webkit-input-placeholder {
 /* HOME */
 /* Navigation */
 .navbar {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: @body-font;
   min-height: 0;
   z-index: 9999;
+	margin-bottom: 0;
+}
+
+.navbar-logo {
+	display: block;
 }
 
 .navbar-nav{
-  float: none;
 	padding-top: 10px;
   margin-bottom: 0;
-  text-align: center;
 
   > li{
     display: inline-block;
@@ -88,7 +92,6 @@ textarea::-webkit-input-placeholder {
     > a {
       -webkit-transition: all 500ms ease-out;
       transition: all 500ms ease-out;
-      font-size: 10px;
       font-weight: 600;
       padding: 0;
       letter-spacing: 1px;
@@ -158,13 +161,18 @@ textarea::-webkit-input-placeholder {
 
 @media only screen and (max-width: 767px) {
 
+	.navbar-header {
+		float: none;
+	}
+
 	.navbar-custom {
-		background: #000;
+		background: @primary;
 	}
 
 	.navbar-nav{
 		padding-top: 0;
-		background-color: #000;
+		background-color: @primary;
+		border-bottom: 1px solid tint(@primary, 10%);
 	}
 
   .navbar-nav > li{
@@ -180,41 +188,20 @@ textarea::-webkit-input-placeholder {
 	}
 
 	.navbar-custom .nav li a:hover{
-		color: #eee;
-		background-color: #333;
+		color: @primary;
+		background-color: #fff;
     border-bottom: 0;
 	}
 
 }
 
-.page-scrolldown{
-  color: #fff;
-  position: absolute;
-  bottom: 25px;
-  left: 50%;
-  margin-left: -18px;
-  opacity: 0.50;
-  -webkit-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
-
-  .fa{
-    font-size: 58px;
-  }
-
-  &:hover{
-    opacity: 1;
-  }
-
-  &:hover,
-  &:focus,
-  &:active{
-    color: #fff;
-  }
-
-}
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+	.navbar-header,
+	.navbar-nav {
+		float: none;
+	}
 
 	.navbar {
 		padding: 20px 0;
@@ -229,6 +216,8 @@ textarea::-webkit-input-placeholder {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+	.navbar-header { float: left; }
+	.navbar-nav { float: right; }
 
 }
 

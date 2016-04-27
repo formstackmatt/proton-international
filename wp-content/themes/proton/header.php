@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 get_template_part( 'head' ); ?>
 
@@ -9,6 +9,7 @@ get_template_part( 'head' ); ?>
     <nav class="navbar navbar-custom" role="navigation">
       <div class="container">
         <div class="navbar-header page-scroll">
+          <a class="navbar-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo--white.png"></a>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <p class="menu-mobile-title">Menu</p>
@@ -19,9 +20,9 @@ get_template_part( 'head' ); ?>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
             <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/about">About</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/expertise">Expertise</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/services">Services</a></li>
             <li><a href="<?php bloginfo('url'); ?>/work">Work</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/company">Company</a></li>
             <li><a href="<?php bloginfo('url'); ?>/news">News</a></li>
             <li><a href="<?php bloginfo('url'); ?>/contact">Contact</a></li>
           </ul>
@@ -31,53 +32,17 @@ get_template_part( 'head' ); ?>
       <!-- /.container -->
     </nav>
 
-    <div class="logo-container">
-      <img src="<?php bloginfo('template_url'); ?>/img/logo@2x.png" class="logo">
-      <?php if(is_front_page()){ ?>
-      <h1>Trust experience.</h1>
-      <?php } ?>
+    <?php if(is_front_page()){ ?>
+
+    <div class="hero__content">
+      <div class="container">
+        <div class="col-md-9 col-centered">
+          <h1 class="headline">We're building the future of cancer treatment.</h1>
+          <h2 class="sub-headline">Our turnkey, full-service solution allows any health network or university to build and maintain a state-of-the-art proton therapy center without hassle.</h2>
+        </div>
+      </div>
     </div>
 
-    <?php if(!is_front_page()){ ?>
-
-    <div class="page-title">
-      <h1><?php wp_title(''); ?></h1>
-    </div>
-
-    <?php if(!is_404()) { ?>
-    <a href="#main" class="page-scrolldown page-scroll-button hidden-xs"><i class="fa fa-angle-down"></i></a>
     <?php } ?>
-
-    <?php if(is_page('contact')) { ?>
-    <p class="credits">Site by Baksa Ritter<br> Photos &amp; video by Hether Miles</p>
-    <?php } ?>
-
-    <?php } else { ?>
-
-    <!--
-
-<div class="latest-news">
-<h2 class="latest-news__label">Latest News</h2>
-
-<?php
-
-  $args = array('posts_per_page' => 1);
-  $news_posts = new WP_Query($args);
-
-  if($news_posts->have_posts()) :
-  while($news_posts->have_posts()) :
-  $news_posts->the_post();
-
-?>
-
-<p class="latest-news__headline"><?php the_title(); ?> <a class="read-more" href="<?php the_permalink (); ?>">Read More &raquo;</a></p>
-
--->
-
-    <?php endwhile; else: endif; ?>
-
-    </div>
-
-  <?php } ?>
 
   </section><!-- /.hero -->
