@@ -1,24 +1,21 @@
-<?php if(!is_front_page() && !is_404()){ ?>
-
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <hr>
+      <div class="col-md-9 col-centered">
+        <img src="<?php bloginfo('template_url'); ?>/img/logo--white.png" alt="Proton Internation logo" class="margin-bottom-medium">
+        <ul class="footer__nav">
+          <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/services">Services</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/work">Work</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/company">Company</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/news">News</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/contact">Contact</a></li>
+        </ul>
+        <p class="no-margin">501 Pennsylvania Parkway, Suite 160<br>Indianapolis, IN 46280 <br><br>317.705.8800</p>
       </div>
     </div>
-    <div class="row">	  
-      <div class="col-md-7 footer__left">
-        <p>501 Pennsylvania Parkway, Suite 160, Indianapolis, IN 46280 &middot; 317.705.8800</p>
-      </div>
-      <div class="col-md-5 footer__right">
-        <p>&copy; Copyright <script>document.write(new Date().getFullYear())</script> T.M. Crowley &amp; Associates</p>
-      </div>
-    </div>
-  </div>		
+  </div>
 </footer>
-
-<?php } ?>
 
 <script src="<?php bloginfo('template_url'); ?>/js/plugins.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/app.min.js"></script>
