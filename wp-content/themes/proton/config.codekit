@@ -338,6 +338,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/proton\/callout_one_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109024,
+		"inputAbbreviatedPath": "\/img\/proton\/callout_one_bg.jpg",
+		"outputAbbreviatedPath": "\/img\/proton\/callout_one_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proton\/callout_three_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119226,
+		"inputAbbreviatedPath": "\/img\/proton\/callout_three_bg.jpg",
+		"outputAbbreviatedPath": "\/img\/proton\/callout_three_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proton\/callout_two_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61716,
+		"inputAbbreviatedPath": "\/img\/proton\/callout_two_bg.jpg",
+		"outputAbbreviatedPath": "\/img\/proton\/callout_two_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proton\/icon_expertise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28699,
+		"inputAbbreviatedPath": "\/img\/proton\/icon_expertise.png",
+		"outputAbbreviatedPath": "\/img\/proton\/icon_expertise.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proton\/icon_financing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33802,
+		"inputAbbreviatedPath": "\/img\/proton\/icon_financing.png",
+		"outputAbbreviatedPath": "\/img\/proton\/icon_financing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proton\/icon_molecule.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34027,
+		"inputAbbreviatedPath": "\/img\/proton\/icon_molecule.png",
+		"outputAbbreviatedPath": "\/img\/proton\/icon_molecule.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/proton\/icon_operations.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34797,
+		"inputAbbreviatedPath": "\/img\/proton\/icon_operations.png",
+		"outputAbbreviatedPath": "\/img\/proton\/icon_operations.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tom.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

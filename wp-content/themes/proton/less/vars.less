@@ -1,16 +1,38 @@
+// NOTE: Colors
+
 @secondary: #10B7E1;
 @primary: #417CDB;
 @tertiary: #333;
+@light: #FFF;
+@lightgray: #F9F9F9;
+@darkgray: shade(@lightgray, 10%);
+
+// NOTE: Fonts
 
 @headline-font: 'Roboto', sans-serif;
 @body-font: 'Open Sans', sans-serif;
 
+// NOTE: Spacing classes.
+
 @spacing-small: 20px;
 @spacing-medium: 40px;
-@spacing-large: 80px;
-@spacing-extralarge: 120px;
+@spacing-large: 60px;
+@spacing-xlarge: 120px;
+@spacing-xxlarge: 140px;
 
-.no-margin { margin: 0 !important; }
+// NOTE: Margin helpers.
 
-.margin-bottom-small { margin-bottom: @spacing-small !important; }
-.margin-bottom-medium { margin-bottom: @spacing-medium !important; }
+.margin-none { margin: 0 !important; }
+.margin-bottom-sm { margin-bottom: @spacing-small !important; }
+.margin-bottom-md { margin-bottom: @spacing-medium !important; }
+
+// NOTE: Desktop-top only classes. These classes will not work on mobile devices.
+
+@media (min-width: 992px) {
+
+  .margin-top-l { margin-top: @spacing-large !important; }
+
+  .md-margin-bottom-sm { margin-bottom: @spacing-small !important; }
+  .md-margin-none { margin: 0 !important; }
+
+}

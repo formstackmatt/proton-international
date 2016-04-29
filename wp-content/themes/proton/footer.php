@@ -11,7 +11,7 @@
           <li><a href="<?php bloginfo('url'); ?>/news">News</a></li>
           <li><a href="<?php bloginfo('url'); ?>/contact">Contact</a></li>
         </ul>
-        <p class="no-margin">501 Pennsylvania Parkway, Suite 160<br>Indianapolis, IN 46280 <br><br>317.705.8800</p>
+        <p class="margin-none">501 Pennsylvania Parkway, Suite 160<br>Indianapolis, IN 46280 <br><br>317.705.8800</p>
       </div>
     </div>
   </div>

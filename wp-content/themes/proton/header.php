@@ -5,7 +5,7 @@ get_template_part( 'head' ); ?>
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 <body <?php body_class(); ?>>
 
-  <section <?php body_class('hero'); ?>>
+  <section class="hero">
     <nav class="navbar navbar-custom" role="navigation">
       <div class="container">
         <div class="navbar-header page-scroll">
@@ -37,8 +37,8 @@ get_template_part( 'head' ); ?>
     <div class="hero__content">
       <div class="container">
         <div class="col-md-9 col-centered">
-          <h1 class="headline">We're building the future of cancer treatment.</h1>
-          <h2 class="sub-headline">Our turnkey, full-service solution allows any health network or university to build and maintain a state-of-the-art proton therapy center without hassle.</h2>
+          <h1 class="headline margin-bottom-sm">We're building the future of cancer treatment.</h1>
+          <h2 class="subheadline">Our turnkey, full-service solution allows any health network or university to build and maintain a state-of-the-art proton therapy center without hassle.</h2>
         </div>
       </div>
     </div>
