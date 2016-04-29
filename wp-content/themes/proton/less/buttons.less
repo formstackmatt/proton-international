@@ -1,0 +1,29 @@
+.button {
+  border: 1px solid @primary;
+  padding: @spacing-small;
+  color: @primary;
+  display: inline-block;
+  border-radius: @border-radius;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  cursor: pointer;
+  color: @primary;
+}
+
+.button--primary {
+  background-color: @primary;
+  color: @light;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: shade(@primary, 10%);
+    color: @light;
+  }
+
+}

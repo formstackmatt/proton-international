@@ -11,6 +11,10 @@
 	line-height: 54px;
 }
 
+.headline--primary { color: @primary; }
+.headline--secondary { color: @secondary; }
+.headline--tertiary { color: @tertiary; }
+
 .subheadline {
 	font-family: @headline-font;
 	color: @lightgray;
@@ -18,11 +22,11 @@
 	font-weight: 400;
 }
 
-.subheadline--dark {
-	color: @tertiary;
-}
+.subheadline--tertiary { color: @tertiary; }
 
 .message {
 	font-size: 16px;
 	color: tint(@tertiary, 30%);
 }
+
+.message--light { color: @light; }

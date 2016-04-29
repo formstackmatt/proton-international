@@ -34,14 +34,25 @@ get_template_part( 'head' ); ?>
 
     <?php if(is_front_page()){ ?>
 
-    <div class="hero__content">
-      <div class="container">
-        <div class="col-md-9 col-centered">
-          <h1 class="headline margin-bottom-sm">We're building the future of cancer treatment.</h1>
-          <h2 class="subheadline">Our turnkey, full-service solution allows any health network or university to build and maintain a state-of-the-art proton therapy center without hassle.</h2>
+      <div class="hero__content">
+        <div class="container">
+          <div class="col-md-9 col-centered">
+            <h1 class="headline margin-bottom-sm">We're building the future of cancer treatment.</h1>
+            <h2 class="subheadline">Our turnkey, full-service solution allows any health network or university to build and maintain a state-of-the-art proton therapy center without hassle.</h2>
+          </div>
         </div>
       </div>
-    </div>
+
+    <?php } else { ?>
+
+      <div class="hero__content">
+        <div class="container">
+          <div class="col-md-9 col-centered">
+            <h1 class="headline margin-bottom-sm">Would you build a proton therapy center <br>if there were no obstacles?</h1>
+            <h2 class="subheadline">Our turnkey solution ensures there’s absolutely nothing holding you back from providing the best cancer treatment for patients.</h2>
+          </div>
+        </div>
+      </div>
 
     <?php } ?>
 

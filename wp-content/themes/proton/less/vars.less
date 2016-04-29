@@ -20,28 +20,34 @@
 @spacing-xlarge: 120px;
 @spacing-xxlarge: 140px;
 
+// NOTE: Other rando vars.
+
+@border-radius: 4px;
+
 // NOTE: Margin helpers.
 
-.margin-none {
-  margin: 0 !important;
-}
-.margin-bottom-sm {
-  margin-bottom: @spacing-small !important;
-}
-.margin-bottom-md {
-  margin-bottom: @spacing-medium !important;
-}
+.margin-none { margin: 0 !important; }
+.margin-top-sm { margin-top: @spacing-small !important; }
+.margin-bottom-sm { margin-bottom: @spacing-small !important; }
+.margin-bottom-md { margin-bottom: @spacing-medium !important; }
 
-// NOTE: Desktop-top only classes. These classes will not work on mobile devices.
+// NOTE: Medium-up only classes.
 
 @media (min-width: 992px) {
-  .margin-top-l {
-    margin-top: @spacing-large !important;
-  }
-  .md-margin-bottom-sm {
-    margin-bottom: @spacing-small !important;
-  }
-  .md-margin-none {
-    margin: 0 !important;
-  }
+
+  .md-margin-top-sm { margin-top: @spacing-small !important; }
+  .md-margin-top-md { margin-top: @spacing-medium !important; }
+  .margin-top-l { margin-top: @spacing-large !important; }
+  .md-margin-bottom-sm { margin-bottom: @spacing-small !important; }
+  .md-margin-none { margin: 0 !important; }
+  .md-text-left { text-align: left !important; }
+
+}
+
+// NOTE: Large-up only classes.
+
+@media (min-width: 1200px) {
+
+  .lg-margin-top-lg { margin-top: @spacing-large !important; }
+
 }

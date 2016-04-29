@@ -1,0 +1,22 @@
+.content__callout {
+  padding: @spacing-large;
+  background-color: @primary;
+  background-size: cover;
+  background-position: top center;
+
+  @media (min-width: 992px) {
+    height: 340px;
+  }
+
+  // NOTE: Making a major exception here. Bad practice.
+  @media (min-width: 1400px) {
+    height: 280px;
+  }
+
+}
+
+.content__callout--tertiary { background-color: @tertiary; }
+
+.content__callout--one { background-image: url("../img/proton/callout_one_bg.jpg"); }
+.content__callout--two { background-image: url("../img/proton/callout_two_bg.jpg"); }
+.content__callout--three { background-image: url("../img/proton/callout_three_bg.jpg"); }
