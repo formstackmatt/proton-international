@@ -10385,17 +10385,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/proton\/img\/logo--white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5602,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/proton\/img\/logo--white.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/proton\/img\/logo--white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/wp-content\/themes\/proton\/img\/proton\/callout_one_bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10491,6 +10480,17 @@
 		"initialSize": 34797,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/proton\/img\/proton\/icon_operations.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/proton\/img\/proton\/icon_operations.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/proton\/img\/proton\/logo--white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5602,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/proton\/img\/proton\/logo--white.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/proton\/img\/proton\/logo--white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

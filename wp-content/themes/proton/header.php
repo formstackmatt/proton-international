@@ -43,7 +43,18 @@ get_template_part( 'head' ); ?>
         </div>
       </div>
 
-    <?php } else { ?>
+    <?php } elseif(is_single()) { ?>
+
+      <div class="hero__content">
+        <div class="container">
+          <div class="col-md-9 col-centered">
+            <h1 class="headline margin-bottom-sm"><?php the_title(); ?></h1>
+            <h2 class="subheadline"><?php the_time('F j, Y'); ?></h2>
+          </div>
+        </div>
+      </div>
+
+    <?php }else { ?>
 
       <div class="hero__content">
         <div class="container">

@@ -1,5 +1,5 @@
 <div class="row content__people">
-  <div class="col-md-4">
+  <div class="col-md-2 col-md-push-10">
 
     <ul class="nav nav-tabs about-tabs" role="tablist" id="people-tabs">
 
@@ -27,7 +27,7 @@
     </ul>
 
   </div>
-  <div class="col-md-8">
+  <div class="col-md-9 col-md-pull-2">
     <div class="tab-content">
 
       <?php

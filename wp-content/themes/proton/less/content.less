@@ -35,7 +35,6 @@
 }
 
 .content__people{
-  //margin-top: 80px;
 
   .tab-content{
     margin-top: 40px;
@@ -113,31 +112,30 @@
 .about-tabs{
   border-bottom: 0;
 
-  > li{
+  > li {
     float: none;
     display: block;
 
-    a{
+    a {
       border: 0;
       font-size: 16px;
       padding: 3px 0 3px 10px;
       text-align: left;
       border-radius: 0;
-      border-left: 2px solid #ccc;
-      color: #ccc;
+      border-left: 2px solid @tertiary;
+      color: @tertiary;
       -webkit-transition: all 500ms ease-out;
       transition: all 500ms ease-out;
     }
 
-    &.active a,
+    &.active > a,
+    &.active > a:focus,
     a:hover {
       border: 0;
-      border-left: 2px solid #fff;
-      color: #fff;
+      border-left: 2px solid @primary;
+      color: @primary;
       background-color: transparent;
     }
-
-    &.active a { font-weight: 600; }
 
   }
 
