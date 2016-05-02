@@ -1,16 +1,16 @@
-<?php 
+<?php
 
 /* Template Name: Contact */
 
 get_header(); ?>
 
-<section class="section content content--contact" id="main">
+<section class="content content--contact">
 
   <div class="container">
 
     <div class="row content__contact">
 
-      <div class="col-md-7">
+      <div class="col-md-6">
 
         <p><strong>T.M. Crowley &amp; Associates Headquarters</strong><br>
           501 Pennsylvania Parkway, Ste.160<br>
@@ -24,12 +24,12 @@ get_header(); ?>
         <?php the_content(); ?>
         <?php endwhile; endif; ?>
 
+      </div>
+
+      <div class="col-md-6">
         <div class="contact-form">
-
           <?php echo do_shortcode('[contact-form-7 id="89" title="Contact form 1"]'); ?>
-
         </div>
-
       </div>
 
     </div>

@@ -94,7 +94,7 @@ get_header(); ?>
     <div class="row">
       <div class="col-md-9 col-centered">
         <h2 class="headline headline--darkgray margin-bottom-sm">Interested? Find out more about our solutions.</h2>
-        <p class="margin-none"><a href="#" class="button button--primary">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+        <p class="margin-none"><a href="services" class="button button--primary">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
       </div>
     </div>
   </div>

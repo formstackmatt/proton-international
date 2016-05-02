@@ -1,6 +1,6 @@
 <?php
 
-/* Template Name: Work */
+/* Template Name: Company */
 
 get_header(); ?>
 
@@ -8,21 +8,19 @@ get_header(); ?>
 
   <div class="container">
 
-    <!--
     <div class="row">
-      <div class="col-md-8 col-centered text-center content--work__intro">
+      <div class="col-md-8 col-centered text-center">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <?php the_content(); ?>
+          <?php the_content(); ?>
         <?php endwhile; endif; ?>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-12">
-        <hr>
+        <hr class="margin-md">
       </div>
     </div>
-    -->
 
     <div class="row property">
       <div class="col-md-6">

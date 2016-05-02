@@ -11059,16 +11059,16 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/wp-content\/themes\/proton\/less\/content.less.bak.less": {
+	"\/wp-content\/themes\/proton\/less\/content.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/proton\/less\/content.less.bak.less",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/proton\/css\/content.less.bak.css",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/proton\/less\/content.less",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/proton\/css\/content.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -11259,11 +11259,20 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/wp-content\/themes\/proton\/page-about.php": {
+	"\/wp-content\/themes\/proton\/page-company.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/proton\/page-about.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/proton\/page-company.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/proton\/page-company.php.bak.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/proton\/page-company.php.bak.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

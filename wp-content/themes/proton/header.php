@@ -48,8 +48,8 @@ get_template_part( 'head' ); ?>
       <div class="hero__content">
         <div class="container">
           <div class="col-md-9 col-centered">
-            <h1 class="headline margin-bottom-sm">Would you build a proton therapy center <br>if there were no obstacles?</h1>
-            <h2 class="subheadline">Our turnkey solution ensures there’s absolutely nothing holding you back from providing the best cancer treatment for patients.</h2>
+            <h1 class="headline margin-bottom-sm"><?php the_field('hero_title'); ?></h1>
+            <h2 class="subheadline"><?php the_field('hero_subtitle'); ?></h2>
           </div>
         </div>
       </div>
