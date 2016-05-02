@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-9 col-centered">
-        <img src="<?php bloginfo('template_url'); ?>/img/logo--white.png" alt="Proton Internation logo" class="margin-bottom-md">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/logo--white.png" alt="Proton Internation logo" class="margin-bottom-md">
         <ul class="footer__nav">
           <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
           <li><a href="<?php bloginfo('url'); ?>/services">Services</a></li>

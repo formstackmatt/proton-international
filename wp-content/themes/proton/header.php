@@ -9,7 +9,7 @@ get_template_part( 'head' ); ?>
     <nav class="navbar navbar-custom" role="navigation">
       <div class="container">
         <div class="navbar-header page-scroll">
-          <a class="navbar-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo--white.png"></a>
+          <a class="navbar-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/proton/logo--white.png"></a>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <p class="menu-mobile-title">Menu</p>
