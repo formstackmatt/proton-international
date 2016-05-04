@@ -8,7 +8,7 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img src="<?php bloginfo('template_url'); ?>/img/proton/icon_financing.png" alt="Financing graphic" class="margin-bottom-sm md-margin-none">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/image-financing.jpg" class="property__thumb">
       </div>
       <div class="col-md-6 md-text-left">
         <h2 class="headline headline--primary margin-bottom-sm">Financing</h2>
@@ -22,7 +22,7 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-push-6">
-        <img src="<?php bloginfo('template_url'); ?>/img/proton/icon_operations.png" alt="Operations graphic" class="margin-bottom-sm md-margin-none">
+        <img src="http://placehold.it/910x600" class="property__thumb">
       </div>
       <div class="col-md-6 col-md-pull-6 md-text-left">
         <h2 class="headline headline--primary margin-bottom-sm">Operations</h2>
@@ -36,7 +36,7 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img src="<?php bloginfo('template_url'); ?>/img/proton/icon_new.png" alt="Real Estate graphic" class="margin-bottom-sm md-margin-none">
+        <img src="http://placehold.it/910x600" class="property__thumb">
       </div>
       <div class="col-md-6 md-text-left">
         <h2 class="headline headline--primary margin-bottom-sm">Real Estate</h2>

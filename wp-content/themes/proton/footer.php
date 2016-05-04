@@ -11,7 +11,7 @@
           <li><a href="<?php bloginfo('url'); ?>/news">News</a></li>
           <li><a href="<?php bloginfo('url'); ?>/contact">Contact</a></li>
         </ul>
-        <p class="margin-none">555 Blank Parkway, Suite xxx<br>Indianapolis, IN 46280 <br><br>317.555.5555</p>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Proton International.</p>
       </div>
     </div>
   </div>

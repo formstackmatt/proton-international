@@ -47,9 +47,9 @@
         ?>
 
         <div role="tabpanel" class="tab-pane fade in <?php if($index === 1) { echo 'active'; } ?> cf" id="ecperson-<?php the_ID(); ?>">
-          <h2 class="headline"><?php the_title(); ?></h2>
-          <h3 class="subheadline subheadline--tertiary margin-bottom-sm"><?php the_field('job_title'); ?></h3>
-          <div class="message">
+          <h2 class="headline headline--light"><?php the_title(); ?></h2>
+          <h3 class="subheadline subheadline--light margin-bottom-sm"><?php the_field('job_title'); ?></h3>
+          <div class="message message--light">
             <?php the_content(); ?>
           </div>
         </div>

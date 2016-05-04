@@ -11,6 +11,12 @@
   border-bottom: 1px solid @darkgray;
 }
 
+.thumb {
+  max-width: 100%;
+  height: auto;
+  //display: block;
+}
+
 .property__thumb {
   max-width: 100%;
   height: auto;
@@ -20,6 +26,39 @@
   /* Medium devices (desktops, 992px and up) */
   @media (min-width: 992px) {
     margin-bottom: 0
+  }
+
+}
+
+.content--work--background {
+  background-image: url("../img/proton/hero--company--two.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.video-wrap {
+  display: block;
+  position: relative;
+
+  .video-wrap__icon {
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.50);
+    padding: 162px 266px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  &:hover {
+
+    .video-wrap__icon {
+      visibility: visible;
+    }
+
   }
 
 }

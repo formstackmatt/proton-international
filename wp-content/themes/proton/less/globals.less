@@ -12,7 +12,11 @@ body {
   //max-width: 970px;
 }
 
-a,
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
 a:hover,
 a:active,
 a:focus {
@@ -66,6 +70,7 @@ textarea::-webkit-input-placeholder {
 /* HOME */
 /* Navigation */
 .navbar {
+  background-color: #fff;
 	font-size: 14px;
 	font-weight: 900;
 	text-transform: uppercase;
@@ -95,8 +100,9 @@ textarea::-webkit-input-placeholder {
       font-weight: 600;
       padding: 0;
       letter-spacing: 1px;
-      color: #fff;
+      color: @tertiary;
       border-bottom: 2px solid transparent;
+      text-decoration: none;
 
       &:hover{
         opacity: 1;
@@ -171,7 +177,7 @@ textarea::-webkit-input-placeholder {
 
   .navbar-logo {
   	padding: @spacing-small 0;
-    background-color: @primary;
+    background-color: #fff;
   }
 
 	.navbar-nav{

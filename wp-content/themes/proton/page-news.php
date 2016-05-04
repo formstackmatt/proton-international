@@ -31,7 +31,7 @@ get_header(); ?>
 
 					<div class="col-md-9">
 
-						<h3 class="headline"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+						<h3 class="sub-headline"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 						<p class="message"><?php the_excerpt(); ?></p>
 						<p class="message"><a href="<?php the_permalink(); ?>">Read More &raquo;</a></p>
 

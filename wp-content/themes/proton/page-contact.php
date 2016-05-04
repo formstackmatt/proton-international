@@ -12,13 +12,13 @@ get_header(); ?>
 
       <div class="col-md-6">
 
-        <p><strong>T.M. Crowley &amp; Associates Headquarters</strong><br>
-          501 Pennsylvania Parkway, Ste.160<br>
-          Indianapolis, IN 46280 • 317.705.8800</p>
+        <p class="message"><strong>Proton International</strong><br><br>
+          M-F 8:30 AM - 5:00 PM ET<br>
+          502.396.1009<br><br>
+          <a href="mailto:support@protonintl.com">support@protonintl.com</a>
+        </p>
 
-        <p>Other office locations in Chicago, IL, Lincoln, RI, and Denver, CO.</p>
-
-        <div class="divider"></div>
+        <hr class="margin-md">
 
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <?php the_content(); ?>

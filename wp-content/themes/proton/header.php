@@ -9,7 +9,7 @@ get_template_part( 'head' ); ?>
     <nav class="navbar navbar-custom" role="navigation">
       <div class="container">
         <div class="navbar-header page-scroll">
-          <a class="navbar-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/proton/logo--white.png"></a>
+          <a class="navbar-logo" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/proton/logo--color.png" alt="Proton International logo"></a>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <p class="menu-mobile-title">Menu</p>
@@ -36,7 +36,7 @@ get_template_part( 'head' ); ?>
 
       <div class="hero__content">
         <div class="container">
-          <div class="col-md-9 col-centered">
+          <div class="col-md-10 col-centered">
             <h1 class="headline margin-bottom-sm">We're building the future of cancer treatment.</h1>
             <h2 class="subheadline">Our turnkey, full-service solution allows any health network or university to build and maintain a state-of-the-art proton therapy center without hassle.</h2>
           </div>
@@ -47,7 +47,7 @@ get_template_part( 'head' ); ?>
 
       <div class="hero__content">
         <div class="container">
-          <div class="col-md-9 col-centered">
+          <div class="col-md-10 col-centered">
             <h1 class="headline margin-bottom-sm"><?php the_title(); ?></h1>
             <h2 class="subheadline"><?php the_time('F j, Y'); ?></h2>
           </div>
@@ -58,7 +58,7 @@ get_template_part( 'head' ); ?>
 
       <div class="hero__content">
         <div class="container">
-          <div class="col-md-9 col-centered">
+          <div class="col-md-10 col-centered">
             <h1 class="headline margin-bottom-sm"><?php the_field('hero_title'); ?></h1>
             <h2 class="subheadline"><?php the_field('hero_subtitle'); ?></h2>
           </div>
