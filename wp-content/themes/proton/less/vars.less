@@ -4,13 +4,15 @@
 @primary: #417CDB;
 @tertiary: #333;
 @light: #FFF;
-@lightgray: #F9F9F9;
-@darkgray: shade(@lightgray, 10%);
+@lightgray: shade(@light, 10%);
+@darkgray: tint(@tertiary, 30%);
 
 // NOTE: Fonts
 
-@headline-font: 'Droid Serif', serif;
-@body-font: 'Open Sans', sans-serif;
+@headline-font: 'EB Garamond', serif;
+//@body-font: 'Open Sans', sans-serif;
+@body-font: 'EB Garamond', serif;
+
 
 // NOTE: Spacing classes.
 
@@ -18,7 +20,7 @@
 @spacing-medium: 40px;
 @spacing-large: 60px;
 @spacing-xlarge: 120px;
-@spacing-xxlarge: 140px;
+@spacing-xxlarge: 200px;
 
 // NOTE: Other rando vars.
 

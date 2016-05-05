@@ -28,3 +28,17 @@
   }
 
 }
+
+.button--tertiary {
+  border-color: @tertiary;
+  background-color: @tertiary;
+  color: @light;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: shade(@tertiary, 10%);
+    color: @light;
+  }
+
+}

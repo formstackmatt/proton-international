@@ -7,13 +7,22 @@
 }
 
 .hero__content {
-  // NOTE: Gnarly offset here to account for the navigation
-  padding: @spacing-xlarge 0;
+  padding: @spacing-xxlarge 0;
+
+  .headline {
+    font-size: 46px;
+  }
+
+  .subheadline {
+    font-size: 30px;
+  }
+
 }
 
 // NOTE: Individual hero styling here.
 .page-template-index-php .hero { background-image: url("../img/proton/hp_hero.jpg"); }
 
+.page-template-default .hero,
 .page-template-page-services-php .hero { background-image: url("../img/proton/hero--solutions.jpg"); }
 
 .page-template-page-company .hero { background-image: url("../img/proton/hero--company.jpg"); }

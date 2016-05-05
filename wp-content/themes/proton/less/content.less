@@ -1,10 +1,70 @@
-.video {
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	opacity: 0.45;
+.content { padding: @spacing-medium 0; }
+
+.content--shrink { padding: 0 }
+
+.content--large { padding: @spacing-large 0; }
+
+.content--xlarge { padding: @spacing-xlarge 0; }
+
+.content--lightgray {
+  background-color: @lightgray;
+  border-bottom: 1px solid @darkgray;
+}
+
+.content--gray {
+  background-color: @darkgray;
+}
+
+.thumb {
+  max-width: 100%;
+  height: auto;
+  //display: block;
+}
+
+.property__thumb {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid @tertiary;
+  margin-bottom: @spacing-small;
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    margin-bottom: 0
+  }
+
+}
+
+.content--work--background {
+  background-image: url("../img/proton/hero--company--two.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.video-wrap {
+  display: block;
+  position: relative;
+
+  .video-wrap__icon {
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.50);
+    padding: 162px 266px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  &:hover {
+
+    .video-wrap__icon {
+      visibility: visible;
+    }
+
+  }
+
 }
 
 .section--department {
@@ -118,16 +178,19 @@
     float: none;
     display: block;
 
-    a {
+    a,
+    &.active > a:hover {
       border: 0;
+      background-color: transparent;
       font-size: 16px;
       padding: 3px 0 3px 10px;
       text-align: left;
       border-radius: 0;
-      border-left: 2px solid @darkgray;
-      color: @darkgray;
+      border-left: 2px solid @lightgray;
+      color: @lightgray;
       -webkit-transition: all 500ms ease-out;
       transition: all 500ms ease-out;
+      text-decoration: none;
     }
 
     &.active > a,
@@ -144,24 +207,6 @@
 
 }
 
-.dropdown-menu--people{
-  left: 50%;
-  margin-left: -78px;
-
-  > li{
-    font-size: 14px;
-  }
-
-  > .active{
-
-    a{
-      color: #000;
-      background-color: #fff;
-    }
-
-  }
-
-}
 
 .content--news {
 

@@ -1,7 +1,7 @@
 .headline,
-.subheadline,
-.copy {
+.subheadline {
 	line-height: 1.5em;
+  letter-spacing: 0;
 }
 
 .headline {
@@ -19,16 +19,25 @@
 .subheadline {
 	font-family: @headline-font;
 	color: @lightgray;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 400;
 }
 
 .subheadline--tertiary { color: @tertiary; }
 .subheadline--light { color: @light; }
+.subheadline--darkgray { color: @darkgray; }
 
 .message {
-	font-size: 16px;
-	color: tint(@tertiary, 30%);
+	font-size: 18px;
+	color: @darkgray;
 }
 
 .message--light { color: @light; }
+
+.message--style-content {
+
+  li {
+    margin-bottom: @spacing-small;
+  }
+
+}
