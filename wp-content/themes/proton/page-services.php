@@ -4,7 +4,7 @@
 
 get_header(); ?>
 
-<section class="content content--lightgray text-center">
+<section class="content text-center">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-push-6">
@@ -16,11 +16,11 @@ get_header(); ?>
         <p class="margin-none"><a href="services/assured-access" class="button button--tertiary">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="content content--lightgray text-center">
-  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="margin-md">
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-6">
         <img src="<?php bloginfo('template_url'); ?>/img/proton/image-financing.jpg" class="property__thumb">
@@ -31,11 +31,11 @@ get_header(); ?>
         <p class="margin-none"><a href="contact" class="button button--tertiary">Contact Us <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="content content--lightgray text-center">
-  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="margin-md">
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-6 col-md-push-6">
         <img src="http://placehold.it/910x600" class="property__thumb">
@@ -46,11 +46,11 @@ get_header(); ?>
         <p class="margin-none"><a href="services/operations" class="button button--tertiary">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="content content--lightgray text-center">
-  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="margin-md">
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-6">
         <img src="<?php bloginfo('template_url'); ?>/img/proton/image-construction.jpg" class="property__thumb">

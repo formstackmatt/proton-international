@@ -102,6 +102,7 @@ textarea::-webkit-input-placeholder {
   > li{
     display: inline-block;
     float: none;
+    position: relative;
     margin: 0 10px;
 
     > a {
@@ -140,6 +141,41 @@ textarea::-webkit-input-placeholder {
 
   }
 
+}
+
+.navigation__submenu {
+  background-color: @light;
+  position: absolute;
+  display: none;;
+  left: -11px;
+  width: 205px;
+  padding: 0;
+  z-index: 9999;
+  text-align: left;
+  margin: 0;
+  box-shadow: 0 0 3px rgba(50, 59, 67, 0.15);
+}
+
+.navigation__subitem {
+  list-style: none;
+  text-transform: none;
+
+  > a {
+    color: @tertiary;
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: @lightgray;
+      color: @tertiary;
+    }
+
+  }
+}
+
+.navbar-nav li:hover > .navigation__submenu{
+  display: block;
 }
 
 .navbar-toggle{

@@ -20,7 +20,14 @@ get_template_part( 'head' ); ?>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
             <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/services">Services</a></li>
+            <li>
+              <a href="<?php bloginfo('url'); ?>/services">Services</a>
+              <ul class="navigation__submenu">
+                <li class="navigation__subitem"><a href="<?php bloginfo('url'); ?>/services">Our Services</a></li>
+                <li class="navigation__subitem"><a href="<?php bloginfo('url'); ?>/services/assured-access">Assured Access</a></li>
+                <li class="navigation__subitem"><a href="<?php bloginfo('url'); ?>/services/operations">Operations</a></li>
+              </ul>
+            </li>
             <li><a href="<?php bloginfo('url'); ?>/work">Work</a></li>
             <li><a href="<?php bloginfo('url'); ?>/company">Company</a></li>
             <li><a href="<?php bloginfo('url'); ?>/news">News</a></li>
