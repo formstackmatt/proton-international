@@ -8,7 +8,7 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-push-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/hampton.jpg" alt="Assured Access to Proton Therapy graphic" class="thumb margin-bottom-sm">
       </div>
       <div class="col-md-6 col-md-pull-6 md-text-left">
         <h2 class="headline headline--primary margin-bottom-sm">Assured Access to Proton Therapy</h2>

@@ -14,7 +14,7 @@ get_header(); ?>
     </div>
     <div class="row">
       <div class="col-md-3">
-        <img src="http://placehold.it/910x600" alt="Assured Access to Proton Therapy graphic" class="thumb margin-bottom-sm">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/hampton.jpg" alt="Assured Access to Proton Therapy graphic" class="thumb margin-bottom-sm">
         <h2 class="subheadline subheadline--tertiary margin-bottom-sm">Assured Access <br>to Proton Therapy</h2>
         <p class="message margin-bottom-sm">Using our expertise and experience building multiple therapy centers, we will assure your facility is created on time, on budget and within the specific scope and needs of your institution.</p>
         <p class="margin-none"><a href="services/assured-access" class="button button--tertiary">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>

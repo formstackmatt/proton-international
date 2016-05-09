@@ -26,7 +26,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/groningen.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6">
         <h2 class="headline headline--primary margin-bottom-sm">Groningen Proton Therapy Center</h2>
@@ -42,7 +42,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6 col-md-push-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/SCCA.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6 col-md-pull-6">
         <h2 class="headline headline--primary margin-bottom-sm">SCCA Proton Therapy Center</h2>
@@ -58,7 +58,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/uf.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6">
         <h2 class="headline headline--primary margin-bottom-sm">University of Florida Proton Therapy Center</h2>
@@ -74,7 +74,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6 col-md-push-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/ok.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6 col-md-pull-6">
         <h2 class="headline headline--primary margin-bottom-sm">ProCure: Oklahoma City</h2>
@@ -90,7 +90,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/upenn.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6">
         <h2 class="headline headline--primary margin-bottom-sm">University of Pennslyvania Proton Therapy Center</h2>
@@ -106,7 +106,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6 col-md-push-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/hampton.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6 col-md-pull-6">
         <h2 class="headline headline--primary margin-bottom-sm">Hampton University Proton Center</h2>
@@ -122,7 +122,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/nj.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6">
         <h2 class="headline headline--primary margin-bottom-sm">ProCure: New Jersey</h2>
@@ -138,8 +138,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6 col-md-push-6">
-        <!-- <img src="<?php bloginfo('template_url'); ?>/img/work_146_gray.jpg" class="property__thumb"> -->
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/northwestern.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6 col-md-pull-6">
         <h2 class="headline headline--primary margin-bottom-sm">Northwestern Medicine Chicago Proton Center</h2>
@@ -155,7 +154,7 @@ get_header(); ?>
 
     <div class="row property">
       <div class="col-md-6">
-        <img src="http://placehold.it/910x600" class="property__thumb">
+        <img src="<?php bloginfo('template_url'); ?>/img/proton/thumbs/beaumont.jpg" class="property__thumb" alt="">
       </div>
       <div class="col-md-6">
         <h2 class="headline headline--primary margin-bottom-sm">Beaumont Proton Therapy Center</h2>
